@@ -8,3 +8,8 @@ C:\Users\i\Desktop\tp\projects\TPCalculadora\Entidades\bin\Debug\Entidades.pdb
 C:\Users\i\Desktop\tp\projects\TPCalculadora\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
 C:\Users\i\Desktop\tp\projects\TPCalculadora\Entidades\obj\Debug\Entidades.dll
 C:\Users\i\Desktop\tp\projects\TPCalculadora\Entidades\obj\Debug\Entidades.pdb
+C:\Users\i\Desktop\commit2tp\TPCalculadora\Entidades\bin\Debug\Entidades.dll
+C:\Users\i\Desktop\commit2tp\TPCalculadora\Entidades\bin\Debug\Entidades.pdb
+C:\Users\i\Desktop\commit2tp\TPCalculadora\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\i\Desktop\commit2tp\TPCalculadora\Entidades\obj\Debug\Entidades.dll
+C:\Users\i\Desktop\commit2tp\TPCalculadora\Entidades\obj\Debug\Entidades.pdb

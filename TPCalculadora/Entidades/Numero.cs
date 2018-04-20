@@ -14,7 +14,7 @@ namespace Entidades
             SetNumero = numero;
         }
 
-
+        //setea un numero validado
         private string SetNumero {
             set
             {
@@ -39,9 +39,15 @@ namespace Entidades
 
         public static double operator /(Numero numero1, Numero numero2)
         {
+            if (numero2.numero == 0)
+            {
+                throw new Exception("ERROR!");
+            }
+
             return numero1.numero / numero2.numero;
         }
 
+        //recibe un string, si es un numero lo devuelve como string y si es otro tipo de caracter devuelve un string que representa el numero cero
         private double ValidarNumer(string strNumero)
         {
             double result = 0;
@@ -50,11 +56,11 @@ namespace Entidades
 
             return result;
         }
-
+        //este método recibe un string que representa un numero en sistema decimal y lo convierte en un string que representa un numero en sistema binario
         public static string DecimalBinario(string numero)
         {
             int value=0;
-            Int32.TryParse(numero, out value);
+            int.TryParse(numero, out value);
             if (value == 0) return null;
             var n = (int)(Math.Log(value) / Math.Log(2));
             var a = new int[n + 1];
@@ -69,11 +75,12 @@ namespace Entidades
             return string.Join("", a);
 
         }
-
+        //este método recibe un string que representa un numero binario y lo convierte en un string que representa un numero en sistema decimal
         public static string BinarioDecimal(string binario)
         {
             var reversedBin = binario.Reverse().ToArray();
-              string num = null;
+              int num = 0;
+            string numstring = null;
 
          
             for (var power = 0; power < reversedBin.Count(); power++)
@@ -81,12 +88,14 @@ namespace Entidades
                 var currentBit = reversedBin[power];
                 if (currentBit == '1')
                 {
-                    string currentNum = Math.Pow(2, power).ToString();
+                    int currentNum = (int)Math.Pow(2, power);
                     num += currentNum;
+
+                    numstring = num.ToString();
                 }
             }
 
-            return num;
+            return numstring;
           
         }
     }

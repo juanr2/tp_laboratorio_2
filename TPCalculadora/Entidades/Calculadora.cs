@@ -26,6 +26,7 @@ namespace Entidades
 
         }
 
+        //recibe dos objetos que representan numero y un operador , realiza la operacion aritmética y devuelve un numero de tipo doble
         public static double Operar(Numero num1, Numero num2, string operador)
         {
             double result = 0;
@@ -52,7 +53,7 @@ namespace Entidades
 
                     break;
 
-                case "/":
+                case "/":          
 
                     result = num1 / num2;
 

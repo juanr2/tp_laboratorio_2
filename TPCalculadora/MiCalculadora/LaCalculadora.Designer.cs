@@ -56,7 +56,7 @@
             this.txtNumero1.Name = "txtNumero1";
             this.txtNumero1.Size = new System.Drawing.Size(124, 38);
             this.txtNumero1.TabIndex = 1;
-            this.txtNumero1.Text = "0";
+            this.txtNumero1.Text = "\r\n";
             // 
             // txtNumero2
             // 
@@ -150,7 +150,7 @@
             this.Name = "LaCalculadora";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Calculadora de Juan Roa del curso [indicar curso y división]";
+            this.Text = "Calculadora de Juan Roa del curso  2° C";
             this.ResumeLayout(false);
             this.PerformLayout();
 

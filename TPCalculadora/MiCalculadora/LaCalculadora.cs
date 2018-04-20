@@ -11,18 +11,35 @@ using System.Windows.Forms;
 
 namespace MiCalculadora
 {
+
+    public enum Conversor
+    {
+        Binario = 1,
+        Decimal
+    }
+
     public partial class LaCalculadora : Form
     {
+        public Conversor CurrentConversor { get; set; }
         public LaCalculadora()
         {
             InitializeComponent();
             LoadCombo();
+            SetBtnsConversor(Conversor.Decimal);
         }
 
 
 
         #region Methods
 
+        private void SetBtnsConversor(Conversor conversor)
+        {
+            CurrentConversor = conversor;
+            btnConvertirABinario.Enabled = CurrentConversor == Conversor.Decimal;
+            btnConvertirADecimal.Enabled = CurrentConversor == Conversor.Binario;
+        }
+
+       
         private void LoadCombo()
         {
            
@@ -39,21 +56,11 @@ namespace MiCalculadora
 
         private static double Operar(string numero1, string numero2, string operador)
         {
-
-            if ((int.Parse(numero1) != 0) && (int.Parse(numero2) == 0) && (operador == "/"))
-            {
-
-                break;
-                
-               
-
-            }
+         
 
                 Numero nro1 = new Numero(numero1);
                 Numero nro2 = new Numero(numero2);
 
-            
-            
 
             return Calculadora.Operar(nro1, nro2, operador);
         }
@@ -64,8 +71,23 @@ namespace MiCalculadora
 
         private void btnOperar_Click(object sender, EventArgs e)
         {
-            lblResultado.Text = Operar(txtNumero1.Text, txtNumero2.Text, cmbOperador.SelectedItem.ToString()).ToString();
+            try
+            {
+                SetBtnsConversor(CurrentConversor);
+                lblResultado.Text = Operar(txtNumero1.Text, txtNumero2.Text, cmbOperador.SelectedItem.ToString()).ToString();
+
+                if (CurrentConversor == Conversor.Binario)
+                {
+                    lblResultado.Text = Numero.DecimalBinario(lblResultado.Text);
+                }
+            }
+            catch (Exception ex)
+            {
+                lblResultado.Text = ex.Message;
+            }
+
         }
+
 
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
@@ -80,18 +102,20 @@ namespace MiCalculadora
         private void btnConvertirABinario_Click(object sender, EventArgs e)
         {
 
-
+            SetBtnsConversor(Conversor.Binario);
             lblResultado.Text = Numero.DecimalBinario(lblResultado.Text);
-
+        
 
         }
 
         private void btnConvertirADecimal_Click(object sender, EventArgs e)
         {
-
+            SetBtnsConversor(Conversor.Decimal);
             lblResultado.Text = Numero.BinarioDecimal(lblResultado.Text);
         }
 
         #endregion
+
+      
     }
 }
