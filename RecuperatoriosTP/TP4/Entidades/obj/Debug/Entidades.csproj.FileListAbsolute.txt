@@ -1,0 +1,6 @@
+C:\Users\i\Desktop\TP4\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\pablo\Downloads\ivan\tp4\TP4\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\pablo\Downloads\ivan\tp4\TP4\Entidades\bin\Debug\Entidades.dll
+C:\Users\pablo\Downloads\ivan\tp4\TP4\Entidades\bin\Debug\Entidades.pdb
+C:\Users\pablo\Downloads\ivan\tp4\TP4\Entidades\obj\Debug\Entidades.dll
+C:\Users\pablo\Downloads\ivan\tp4\TP4\Entidades\obj\Debug\Entidades.pdb

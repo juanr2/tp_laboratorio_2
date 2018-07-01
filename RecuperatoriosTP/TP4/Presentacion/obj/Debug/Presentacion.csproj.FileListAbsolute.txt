@@ -1,0 +1,11 @@
+C:\Users\pablo\Downloads\ivan\tp4\TP4\Presentacion\obj\Debug\Presentacion.csprojResolveAssemblyReference.cache
+C:\Users\pablo\Downloads\ivan\tp4\TP4\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\pablo\Downloads\ivan\tp4\TP4\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.Cache
+C:\Users\pablo\Downloads\ivan\tp4\TP4\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\pablo\Downloads\ivan\tp4\TP4\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\pablo\Downloads\ivan\tp4\TP4\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\pablo\Downloads\ivan\tp4\TP4\Presentacion\bin\Debug\Entidades.dll
+C:\Users\pablo\Downloads\ivan\tp4\TP4\Presentacion\bin\Debug\Entidades.pdb
+C:\Users\pablo\Downloads\ivan\tp4\TP4\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\pablo\Downloads\ivan\tp4\TP4\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\pablo\Downloads\ivan\tp4\TP4\Presentacion\obj\Debug\Presentacion.FrmPpal.resources
