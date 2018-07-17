@@ -25,7 +25,6 @@ namespace Entidades
         {
             get { return estado; }
             set { estado = value; }
-
         }
 
         public string TrackingID
@@ -69,16 +68,19 @@ namespace Entidades
             }            
         }     
 
+        // Sobrecarga el operador != para paquetes con distinto trackingId
         public static bool operator !=(Paquete p1, Paquete p2)
         {
             return !string.Equals(p1.trackingID, p2.trackingID);
         }
 
+        // Sobrecarga el operador == para paquetes con igual trackingId
         public static bool operator ==(Paquete p1, Paquete p2)
         {
             return string.Equals(p1.trackingID, p2.trackingID);
         }       
-
+        
+        
         public string MostrarDatos(IMostrar<Paquete> data)
         {
             return string.Format("{0} para {1}", ((Paquete)data).trackingID, ((Paquete)data).direccionEntrega);
