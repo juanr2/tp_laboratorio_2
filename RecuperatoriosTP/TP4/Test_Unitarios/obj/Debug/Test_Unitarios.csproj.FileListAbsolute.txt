@@ -8,3 +8,13 @@ C:\Users\i\Desktop\commitRecuperatorio\RecuperatoriosTP\TP4\Test_Unitarios\bin\D
 C:\Users\i\Desktop\commitRecuperatorio\RecuperatoriosTP\TP4\Test_Unitarios\obj\Debug\Test_Unitarios.csprojResolveAssemblyReference.cache
 C:\Users\i\Desktop\commitRecuperatorio\RecuperatoriosTP\TP4\Test_Unitarios\obj\Debug\Test_Unitarios.dll
 C:\Users\i\Desktop\commitRecuperatorio\RecuperatoriosTP\TP4\Test_Unitarios\obj\Debug\Test_Unitarios.pdb
+C:\Users\i\Desktop\commit2\RecuperatoriosTP\TP4\Test_Unitarios\bin\Debug\Test_Unitarios.dll
+C:\Users\i\Desktop\commit2\RecuperatoriosTP\TP4\Test_Unitarios\bin\Debug\Test_Unitarios.pdb
+C:\Users\i\Desktop\commit2\RecuperatoriosTP\TP4\Test_Unitarios\bin\Debug\Entidades.dll
+C:\Users\i\Desktop\commit2\RecuperatoriosTP\TP4\Test_Unitarios\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\i\Desktop\commit2\RecuperatoriosTP\TP4\Test_Unitarios\bin\Debug\Presentacion.exe
+C:\Users\i\Desktop\commit2\RecuperatoriosTP\TP4\Test_Unitarios\bin\Debug\Entidades.pdb
+C:\Users\i\Desktop\commit2\RecuperatoriosTP\TP4\Test_Unitarios\bin\Debug\Presentacion.pdb
+C:\Users\i\Desktop\commit2\RecuperatoriosTP\TP4\Test_Unitarios\obj\Debug\Test_Unitarios.csprojResolveAssemblyReference.cache
+C:\Users\i\Desktop\commit2\RecuperatoriosTP\TP4\Test_Unitarios\obj\Debug\Test_Unitarios.dll
+C:\Users\i\Desktop\commit2\RecuperatoriosTP\TP4\Test_Unitarios\obj\Debug\Test_Unitarios.pdb

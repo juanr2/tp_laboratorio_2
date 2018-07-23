@@ -81,6 +81,7 @@ namespace Presentacion
           rtbMostrar.Text.Guardar("salida.txt");
         }
 
+        //valida que lo ingresado no sea null o este vacio.
         private void ValidateFields()
         {
             if (string.IsNullOrEmpty(txtDireccion.Text))

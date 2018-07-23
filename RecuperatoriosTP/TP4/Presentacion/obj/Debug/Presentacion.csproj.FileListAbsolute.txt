@@ -20,3 +20,14 @@ C:\Users\i\Desktop\commitRecuperatorio\RecuperatoriosTP\TP4\Presentacion\obj\Deb
 C:\Users\i\Desktop\commitRecuperatorio\RecuperatoriosTP\TP4\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.Cache
 C:\Users\i\Desktop\commitRecuperatorio\RecuperatoriosTP\TP4\Presentacion\obj\Debug\Presentacion.exe
 C:\Users\i\Desktop\commitRecuperatorio\RecuperatoriosTP\TP4\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\i\Desktop\commit2\RecuperatoriosTP\TP4\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\i\Desktop\commit2\RecuperatoriosTP\TP4\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\i\Desktop\commit2\RecuperatoriosTP\TP4\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\i\Desktop\commit2\RecuperatoriosTP\TP4\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\i\Desktop\commit2\RecuperatoriosTP\TP4\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\i\Desktop\commit2\RecuperatoriosTP\TP4\Presentacion\bin\Debug\Entidades.dll
+C:\Users\i\Desktop\commit2\RecuperatoriosTP\TP4\Presentacion\bin\Debug\Entidades.pdb
+C:\Users\i\Desktop\commit2\RecuperatoriosTP\TP4\Presentacion\obj\Debug\Presentacion.csprojResolveAssemblyReference.cache
+C:\Users\i\Desktop\commit2\RecuperatoriosTP\TP4\Presentacion\obj\Debug\Presentacion.FrmPpal.resources
+C:\Users\i\Desktop\commit2\RecuperatoriosTP\TP4\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\i\Desktop\commit2\RecuperatoriosTP\TP4\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.Cache

@@ -9,3 +9,8 @@ C:\Users\i\Desktop\commitRecuperatorio\RecuperatoriosTP\TP4\Entidades\bin\Debug\
 C:\Users\i\Desktop\commitRecuperatorio\RecuperatoriosTP\TP4\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
 C:\Users\i\Desktop\commitRecuperatorio\RecuperatoriosTP\TP4\Entidades\obj\Debug\Entidades.dll
 C:\Users\i\Desktop\commitRecuperatorio\RecuperatoriosTP\TP4\Entidades\obj\Debug\Entidades.pdb
+C:\Users\i\Desktop\commit2\RecuperatoriosTP\TP4\Entidades\bin\Debug\Entidades.dll
+C:\Users\i\Desktop\commit2\RecuperatoriosTP\TP4\Entidades\bin\Debug\Entidades.pdb
+C:\Users\i\Desktop\commit2\RecuperatoriosTP\TP4\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\i\Desktop\commit2\RecuperatoriosTP\TP4\Entidades\obj\Debug\Entidades.dll
+C:\Users\i\Desktop\commit2\RecuperatoriosTP\TP4\Entidades\obj\Debug\Entidades.pdb

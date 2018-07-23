@@ -16,7 +16,7 @@ namespace Entidades
         static PaqueteDAO()
         {
             //Se genera una nueva conexión tomando el connection string desde app.config
-            _conexion = new SqlConnection(ConfigurationManager.ConnectionStrings["correo-sp-2017"].ConnectionString);
+            _conexion = new SqlConnection(@"Data Source = .\SQLEXPRESS;Initial Catalog = correo-sp-2017; User Id=J; Password = R; MultipleActiveResultSets=true;");
             _comando = new SqlCommand();         
             _comando.CommandType = System.Data.CommandType.Text;         
             _comando.Connection = _conexion;
@@ -44,7 +44,7 @@ namespace Entidades
             }           
             finally
             {
-                //si la operación finaliza correctamente, tenemos que cerrar la conexión.
+                //EL BLOQUE FINALLY SE EJECUTA SIEMPRE, INDEPENDIENTEMENTE QUE EXISTA O NO EXISTA ERROR.
                 if (_conexion.State == ConnectionState.Open)
                     _conexion.Close();
             }
